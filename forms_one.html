@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms One</title>
+    <style>
+      body {
+        background-color: #414141;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Forms in HTML {Total 22 or 23 input type}</h1>
+    <form
+      action=""
+      method="GET"
+      accept-charset="utf-8"
+      autocomplete="on"
+      enctype=""
+      novalidate
+      target=""
+    >
+      <label for="fname">First Name</label>
+      <br />
+      <input
+        type="text"
+        placeholder="first name"
+        name="first_name"
+        id="fname"
+      />
+
+      <br />
+
+      <label for="lname">Last Name</label>
+      <br />
+      <input type="text" placeholder="last name" name="last_name" id="lname" />
+      <br />
+      <input type="week" name="" id="" />
+      <br />
+      <select name="editors" id="" multiple>
+        <option value="vscode">VS Code</option>
+        <option value="sublime">Sublime</option>
+      </select>
+      <br />
+      <input list="editors" name="editor" />
+      <datalist id="editors">
+        <option value="vscode">VS Code</option>
+        <option value="sublime">Sublime</option>
+      </datalist>
+      <br />
+      <input type="hidden" name="" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+      <button type="submit">Click</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media & API</title>
+  </head>
+  <body>
+    <!-- video tag means the video input you providing is exist on same server where your index.html file is located -->
+
+    <!-- with the help of iframe you are opening a window inside webpage where third party websites are serving their content -->
+    <h1>Media</h1>
+
+    <video
+      src="../../Downloads/20_50 feet house plan I 3 BHK house plan I 6x15 meter house plan 𝗣𝗹𝗮𝗻 𝗜𝗗 - 181.mp4"
+    ></video>
+    <!-- spaces in file name are not good for SEO purpose -->
+    <!-- but... video is not loading -->
+    <!-- this is the problem of live server, live server expect all files(video)
+    should be kept in same directory -->
+
+    <video width="430" height="250" controls autoplay muted>
+      <!-- autoplay does not work without muted  -->
+      <source
+        src="./20_50 feet house plan I 3 BHK house plan I 6x15 meter house plan 𝗣𝗹𝗮𝗻 𝗜𝗗 - 181.mp4"
+      />
+    </video>
+
+    <!-- <audio src=""></audio> -->
+  </body>
+</html>
